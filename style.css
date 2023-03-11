@@ -1,0 +1,89 @@
+html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: sans-serif;
+    background-image:url(https://img.freepik.com/free-vector/pink-blue-gradient_78370-260.jpg?w=360) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 50px auto;
+}
+.displayphoto {
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+.bio {
+    text-align: center;
+    color: #188ed8;
+}
+
+.hobbies {
+   /* align-items: center; */
+   transition: 2ms;
+   color: #3272f1;
+}
+.hobbies-list {
+    color: #fff;
+}
+.butn {
+    background-color: #fff;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+.butn:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 50px auto;
+}
+
+.projecttext {
+    color: #bc2174;
+    text-align: center;
+}
+
+.unipage {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.p3 {
+    background-color:#ea55bd;
+    border-radius:4px;
+    padding:15px;
+    margin:5px;
+}
+
+@media (max-width: 900px) {
+    main {
+      flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 700px) {
+    main {
+      position: relative;
+    }
+  }
+  @media (max-width: 520px) {
+    main::before {
+      top: 145px;
+    }
+  }
